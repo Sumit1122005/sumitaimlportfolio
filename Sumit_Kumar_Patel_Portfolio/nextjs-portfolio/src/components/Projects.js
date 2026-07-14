@@ -59,14 +59,14 @@ export default function Projects() {
               right: '-20px',
               width: '100px',
               height: '100px',
-              background: 'radial-gradient(circle, rgba(34,211,238,0.15) 0%, transparent 70%)',
+              background: 'radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%)',
               filter: 'blur(20px)',
               borderRadius: '50%'
             }} />
             
             <h3 style={{ fontSize: '1.5rem', fontWeight: '700', marginBottom: '12px', zIndex: 1 }}>{project.title}</h3>
             
-            <div style={{ fontSize: '0.85rem', color: 'var(--accent-cyan)', fontWeight: '600', marginBottom: '16px', letterSpacing: '0.05em', zIndex: 1 }}>
+            <div style={{ fontSize: '0.85rem', color: 'var(--accent-blue)', fontWeight: '600', marginBottom: '16px', letterSpacing: '0.05em', zIndex: 1 }}>
               {project.techStack}
             </div>
             

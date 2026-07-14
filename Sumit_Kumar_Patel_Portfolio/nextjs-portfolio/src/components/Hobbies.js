@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Rocket, Bot, Users, Sparkles, BrainCircuit, CloudCog } from 'lucide-react';
+import { Rocket, Bot, Users, Sparkles, BrainCircuit, CloudCog, Brush, Book } from 'lucide-react';
 import { portfolioData } from '@/data/portfolio';
 
 const iconMap = {
@@ -11,6 +11,8 @@ const iconMap = {
   sparkles: Sparkles,
   brain: BrainCircuit,
   'cloud-cog': CloudCog,
+  brush: Brush,
+  book: Book,
 };
 
 export default function Hobbies() {

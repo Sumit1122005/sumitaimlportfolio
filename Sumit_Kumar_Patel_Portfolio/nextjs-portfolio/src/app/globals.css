@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg-color: #000000;
+  --bg-color: #0f172a;
   --text-primary: #ffffff;
-  --text-secondary: #cffafe;
-  --accent-purple: #fdba74;
-  --accent-cyan: #2dd4bf;
-  --accent-purple-hover: #fb923c;
-  --accent-glow: rgba(253, 186, 116, 0.4);
+  --text-secondary: #e0e7ff;
+  --accent-purple: #a855f7;
+  --accent-blue: #3b82f6;
+  --accent-purple-hover: #9333ea;
+  --accent-glow: rgba(147, 51, 234, 0.4);
   
-  --card-bg: #0a0a0a;
-  --card-border: rgba(207, 250, 254, 0.15);
-  --card-hover-border: #fdba74;
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-hover-border: #3b82f6;
   
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
@@ -116,14 +116,14 @@ a {
 
 /* Section Titles */
 .section-subtitle {
-  color: var(--accent-cyan);
+  color: var(--accent-blue);
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-bottom: 12px;
   text-align: center;
-  background: linear-gradient(90deg, var(--accent-cyan), var(--text-secondary));
+  background: linear-gradient(90deg, var(--accent-blue), var(--text-secondary));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -139,7 +139,7 @@ a {
 
 /* Text Gradients */
 .text-gradient {
-  background: linear-gradient(135deg, #ffffff 20%, var(--accent-cyan) 80%, var(--accent-purple) 100%);
+  background: linear-gradient(135deg, #ffffff 20%, var(--accent-blue) 80%, var(--accent-purple) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -209,7 +209,7 @@ a {
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 0.05em;
-  background: linear-gradient(90deg, #fff, var(--accent-cyan));
+  background: linear-gradient(90deg, #fff, var(--accent-blue));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

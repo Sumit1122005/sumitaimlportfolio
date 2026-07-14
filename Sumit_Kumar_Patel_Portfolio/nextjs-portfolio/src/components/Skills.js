@@ -56,8 +56,8 @@ export default function Skills() {
               gap: '8px',
               padding: '10px 20px',
               borderRadius: '30px',
-              background: activeTab === cat.name ? 'rgba(45, 212, 191, 0.1)' : 'rgba(255, 255, 255, 0.05)',
-              border: `1px solid ${activeTab === cat.name ? 'rgba(45, 212, 191, 0.5)' : 'rgba(255, 255, 255, 0.1)'}`,
+              background: activeTab === cat.name ? 'rgba(59, 130, 246, 0.1)' : 'rgba(255, 255, 255, 0.05)',
+              border: `1px solid ${activeTab === cat.name ? 'rgba(59, 130, 246, 0.5)' : 'rgba(255, 255, 255, 0.1)'}`,
               color: activeTab === cat.name ? 'white' : 'var(--text-secondary)',
               cursor: 'pointer',
               fontWeight: '600',
@@ -73,7 +73,7 @@ export default function Skills() {
                 style={{
                   position: 'absolute',
                   inset: 0,
-                  background: 'rgba(45, 212, 191, 0.15)',
+                  background: 'rgba(59, 130, 246, 0.15)',
                   borderRadius: '30px'
                 }}
                 transition={{ type: "spring", stiffness: 300, damping: 30 }}
@@ -124,7 +124,7 @@ export default function Skills() {
                 style={{
                   position: 'absolute',
                   inset: 0,
-                  background: 'radial-gradient(circle at center, rgba(45,212,191,0.1) 0%, transparent 70%)',
+                  background: 'radial-gradient(circle at center, rgba(59,130,246,0.1) 0%, transparent 70%)',
                   pointerEvents: 'none'
                 }}
               />
@@ -137,7 +137,7 @@ export default function Skills() {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  color: 'var(--accent-cyan)'
+                  color: 'var(--accent-blue)'
                 }}>
                   <Code size={20} />
                 </div>

@@ -136,7 +136,7 @@ export default function Hero() {
         transform: 'translate(-50%, -50%)',
         width: '800px',
         height: '800px',
-        background: 'radial-gradient(circle, rgba(45,212,191,0.1) 0%, rgba(253,186,116,0.05) 40%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(59,130,246,0.1) 0%, rgba(147,51,234,0.05) 40%, transparent 70%)',
         filter: 'blur(80px)',
         zIndex: 0,
         pointerEvents: 'none'
@@ -162,7 +162,7 @@ export default function Hero() {
         >
           <motion.div variants={itemVariants} style={{ marginBottom: '16px' }}>
             <div className="pill-badge" style={{ fontSize: '0.75rem', padding: '6px 18px' }}>
-              <span style={{ marginRight: '8px', display: 'inline-block', width: '8px', height: '8px', background: '#22c55e', borderRadius: '50%', boxShadow: '0 0 10px #22c55e' }}></span>
+              <span style={{ marginRight: '8px', display: 'inline-block', width: '8px', height: '8px', background: '#3b82f6', borderRadius: '50%', boxShadow: '0 0 10px #3b82f6' }}></span>
               AVAILABLE FOR WORK
             </div>
           </motion.div>
@@ -190,7 +190,7 @@ export default function Hero() {
 
           <motion.div variants={itemVariants} style={{ marginBottom: '24px' }}>
             <div className="pill-badge">
-              <span style={{ marginRight: '8px', display: 'inline-block', width: '8px', height: '8px', background: 'var(--accent-cyan)', borderRadius: '50%', boxShadow: '0 0 10px var(--accent-cyan)' }}></span>
+              <span style={{ marginRight: '8px', display: 'inline-block', width: '8px', height: '8px', background: 'var(--accent-blue)', borderRadius: '50%', boxShadow: '0 0 10px var(--accent-blue)' }}></span>
               {hero.role}
             </div>
           </motion.div>
@@ -240,7 +240,7 @@ export default function Hero() {
             borderRadius: '20px',
             overflow: 'hidden',
             border: '1px solid var(--card-border)',
-            boxShadow: '0 0 60px rgba(45,212,191,0.1), 0 25px 60px rgba(0,0,0,0.5)',
+            boxShadow: '0 0 60px rgba(59,130,246,0.1), 0 25px 60px rgba(0,0,0,0.5)',
             background: '#0a0a0f',
           }}>
             <video
@@ -301,11 +301,11 @@ export default function Hero() {
                         width: '80px',
                         height: '80px',
                         borderRadius: '50%',
-                        background: 'linear-gradient(135deg, var(--accent-purple), #ea580c)',
+                        background: 'linear-gradient(135deg, var(--accent-purple), var(--accent-blue))',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        boxShadow: '0 0 40px rgba(253, 186, 116, 0.5)',
+                        boxShadow: '0 0 40px rgba(147, 51, 234, 0.5)',
                       }}
                     >
                       <Play size={32} fill="white" color="white" style={{ marginLeft: '4px' }} />
@@ -342,19 +342,19 @@ export default function Hero() {
                   alignItems: 'center',
                   gap: '8px',
                   padding: '8px 16px',
-                  background: 'rgba(45, 212, 191, 0.1)',
+                  background: 'rgba(59, 130, 246, 0.1)',
                   border: '1px solid var(--card-border)',
                   backdropFilter: 'blur(12px)',
                   borderRadius: '20px',
                   fontSize: '0.75rem',
                   fontWeight: '700',
-                  color: 'var(--accent-cyan)',
+                  color: 'var(--accent-blue)',
                   letterSpacing: '0.1em',
                 }}>
                   <motion.div
                     animate={isPlaying ? { scale: [1, 1.3, 1] } : {}}
                     transition={{ duration: 1.5, repeat: Infinity }}
-                    style={{ width: '8px', height: '8px', borderRadius: '50%', background: isPlaying ? '#ef4444' : '#666' }}
+                    style={{ width: '8px', height: '8px', borderRadius: '50%', background: isPlaying ? 'var(--accent-blue)' : '#666' }}
                   />
                   {(videoSources[currentIndex] || videoSources[0]).label}
                 </div>
@@ -395,7 +395,7 @@ export default function Hero() {
                       border: '1px solid rgba(255,255,255,0.2)',
                       background: 'rgba(0,0,0,0.5)',
                       backdropFilter: 'blur(8px)',
-                      color: isMuted ? 'rgba(255,255,255,0.5)' : 'var(--accent-cyan)',
+                      color: isMuted ? 'rgba(255,255,255,0.5)' : 'var(--accent-blue)',
                       cursor: 'pointer',
                       display: 'flex',
                       alignItems: 'center',
@@ -424,7 +424,7 @@ export default function Hero() {
                 style={{
                   height: '100%',
                   width: `${progress}%`,
-                  background: 'linear-gradient(90deg, var(--accent-cyan), var(--accent-purple))',
+                  background: 'linear-gradient(90deg, var(--accent-blue), var(--accent-purple))',
                   borderRadius: '0 2px 2px 0',
                 }}
               />
@@ -450,12 +450,12 @@ export default function Hero() {
                   borderRadius: '5px',
                   border: 'none',
                   background: currentIndex === index
-                    ? 'linear-gradient(90deg, var(--accent-cyan), var(--accent-purple))'
+                    ? 'linear-gradient(90deg, var(--accent-blue), var(--accent-purple))'
                     : 'rgba(255,255,255,0.15)',
                   cursor: 'pointer',
                   transition: 'all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
                   outline: 'none',
-                  boxShadow: currentIndex === index ? '0 0 10px rgba(45,212,191,0.4)' : 'none',
+                  boxShadow: currentIndex === index ? '0 0 10px rgba(59,130,246,0.4)' : 'none',
                 }}
               />
             ))}
