@@ -1,26 +1,26 @@
 export const portfolioData = {
   hero: {
     name: "SUMIT KUMAR PATEL",
-    role: "</> AI AUTOMATION ENGINEER & AI/ML ENGINEER",
+    role: "</> AI AUTOMATION ENGINEER & AI/ML ENGINEER </>",
     description: "Aspiring AI Automation and AI/ML Engineer with a strong foundation in Data Structures, Algorithms, and programming. Experienced in building machine learning projects, n8n automation workflows, and participating in national-level hackathons including the ISRO Hackathon."
   },
   socials: {
     email: "sumitkumarpatel01122005@gmail.com",
-    github: "#",
-    linkedin: "#"
+    github: "https://github.com/Sumit1122005",
+    linkedin: "https://www.linkedin.com/in/sumit1122005"
   },
   about: {
     description1: "I am an AI Automation Engineer & AI/ML Engineer pursuing my Bachelor of Technology in Computer Science & Engineering at UIT RGPV, Shivpuri. I'm currently learning AI/ML and building hands-on machine learning projects, including a one-month internship at Edunet Foundation.",
     description2: "I focus on automation workflows using n8n, and on building scalable AI/ML applications spanning deep learning, NLP, LLMs, and RAG pipelines — with an emphasis on problem-solving, automation, and real-world impact.",
     graduationYear: "2027",
-    projectsCount: "4+"
+    projectsCount: "10+"
   },
   education: [
     {
       degree: 'Bachelor of Technology in Computer Science Engineering',
       date: 'Sep 2023 - Present',
       institution: 'University Institute of Technology, RGPV, Shivpuri (M.P.)',
-      description: 'Current CGPA: 7.74/10, Current SGPA: 8.83/10. Expected Graduation: 2027. Coursework: Operating Systems, Data Structures & Algorithms, Analysis & Design of Algorithms, DBMS.'
+      description: 'Current CGPA: 7.74/10. Expected Graduation: 2027. Coursework: Operating Systems, Data Structures & Algorithms, Analysis & Design of Algorithms, DBMS.'
     },
     {
       degree: 'Class XII - MPBSE',
@@ -78,40 +78,40 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: 'Air Pollution Monitoring System (ISRO Hackathon)',
-      techStack: 'Python, Data Analysis',
-      description: 'Developed a pollution monitoring system using satellite and ground data as part of the ISRO Hackathon, working in a team to design scalable, real-world solutions.',
-      links: { github: '#', live: '#' }
+      title: 'Web AI Summarization',
+      techStack: 'Python, HTML, FastAPI, ML',
+      description: 'Developed a web application that can summarise any text or article.',
+      links: { github: 'https://github.com/Sumit1122005/Textsummerization_app', live: '#' }
     },
     {
       title: 'Healy Mate – Mental Wellness Web App',
       techStack: 'Next.js, AI',
       description: 'Built a full-stack mental wellness web app with AI-based sentiment analysis to support user well-being.',
-      links: { github: '#', live: '#' }
+      links: { github: 'https://github.com/Sumit1122005/v0-healymate-saas-app', live: 'https://v0-healymate-saas-app.vercel.app/' }
     },
     {
       title: 'Plant Disease Detection System',
       techStack: 'Python, TensorFlow, NumPy, Pandas, Kaggle Datasets',
       description: 'Developed a CNN-based deep learning model for plant disease classification, achieving 95% accuracy on 150K+ images.',
-      links: { github: '#', live: '#' }
+      links: { github: 'https://github.com/Sumit1122005/Plant-Disease-Detection-System', live: '#' }
     },
     {
       title: 'Automation Workflow Projects',
       techStack: 'n8n, APIs, Pinecone, Automation Tools',
       description: 'Built a suite of automation workflows including a RAG Agent, Resume Simplifier, Auto Mail Sender, and Data Simplifier.',
-      links: { github: '#', live: '#' }
+      links: { github: 'https://github.com/Sumit1122005/n8n-gemini-ai-automation', live: '#' }
     },
     {
       title: 'Dental Clinic Website',
       techStack: 'Next.js, FastAPI, Tailwind CSS',
       description: 'Developed a full-featured dental clinic website with appointment booking, service listings, doctor profiles, and a responsive modern UI for an enhanced patient experience.',
-      links: { github: '#', live: '#' }
+      links: { github: 'https://github.com/Sumit1122005/NextGen_Dental_Clinic', live: 'https://next-gen-dental-clinic.vercel.app/' }
     },
     {
       title: 'AI Agents – Q&A & Email Summarization',
       techStack: 'FastAPI, LangChain, LLMs, Python',
       description: 'Built intelligent AI agents using FastAPI for automated Q&A over documents and email summarization, leveraging LLMs and LangChain for context-aware responses.',
-      links: { github: '#', live: '#' }
+      links: { github: 'https://github.com/Sumit1122005/Ai_agents', live: '#' }
     }
   ],
   contact: {
@@ -119,17 +119,17 @@ export const portfolioData = {
     phone: "+91-7224825162",
     location: "Indore, Madhya Pradesh",
     socialLinks: [
-      { name: "GitHub", url: "#", icon: "github" },
-      { name: "LinkedIn", url: "#", icon: "linkedin" },
-      { name: "LeetCode", url: "#", icon: "leetcode" }
+      { name: "GitHub", url: "https://github.com/Sumit1122005", icon: "github" },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/sumit1122005", icon: "linkedin" },
+      { name: "LeetCode", url: "https://leetcode.com/u/sumitkumarpatel1122005/", icon: "leetcode" }
     ]
   },
   hobbies: [
-    { title: "Hackathons", description: "Participating in national-level hackathons such as ISRO Hackathon and SIH.", icon: "rocket" },
-    { title: "AI Automation", description: "Building automation workflows and agents with n8n and Make.", icon: "bot" },
+    { title: "Coding", description: "Participating in national-level hackathons such as ISRO Hackathon and SIH.", icon: "rocket" },
+    { title: "Painter", description: "Painting is my creative escape. I love blending colors to bring ideas to life.", icon: "brush" },
     { title: "Event Coordination", description: "Organizing and managing technical events and hackathons as a coordinator.", icon: "users" },
     { title: "Learning New Technologies", description: "Exploring modern AI/ML tools, frameworks, and programming concepts.", icon: "sparkles" },
     { title: "Problem Solving", description: "Enjoy solving logical problems, coding challenges, and debugging applications.", icon: "brain" },
-    { title: "Model Deployment", description: "Deploying and experimenting with AI models and RAG pipelines.", icon: "cloud-cog" }
+    { title: "Reading", description: "Reading is my escape. I love losing myself in stories and learning from different perspectives.", icon: "book" }
   ]
 };
